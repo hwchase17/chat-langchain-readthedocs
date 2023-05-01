@@ -4,14 +4,14 @@ Create a ChatGPT like experience over your ReadTheDocs using [LangChain](https:/
 
 
 ## 📊 Example Data
-This repo uses the [LangChain Documentation](https://langchain.readthedocs.io/en/latest/) as an example.
+This repo uses the [LangChain Documentation](https://python.langchain.com/en/latest/) as an example.
 
 ## 🧑 Instructions for ingesting your own ReadTheDocs documentation
 
-Run the following command to download html for a given website. Replace `https://langchain.readthedocs.io/en/latest/` with a URL to your website.
+Run the following command to download html for a given website. Replace `https://python.langchain.com/en/latest/` with a URL to your website.
 
 ```shell
-wget -r -A.html https://langchain.readthedocs.io/en/latest/
+wget -r -A.html https://python.langchain.com/en/latest/
 ```
 
 ## Ingest data
